@@ -14,5 +14,11 @@ describe('parseRDF', () => {
     it('should parse RDF content', () => {
         const book = parseRDF(rdf);
         expect(book).to.be.an('object');
-    })
+        expect(book).to.have.a.property('id', 132);
+        
+        expect(book).to.have.a.property('authors')
+            .that.is.an('array').with.lengthOf(2)
+            .and.contains('Sunzi, active 6th century B.C.')
+            .and.contains('Giles, Lionel');
+    });
 });
