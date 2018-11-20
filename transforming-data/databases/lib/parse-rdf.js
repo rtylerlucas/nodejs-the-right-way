@@ -8,8 +8,11 @@ module.exports = rdf => {
     const book = {};
     //Note: the plus sign casts the result to a number.
     book.id = +$('pgterms\\:ebook').attr('rdf:about').replace('ebooks/', ''); // E.g: <pgterms:ebook rdf:about="ebooks/132">
+    book.title = $('dcterms\\:title').text();
     book.authors = $('pgterms\\:agent pgterms\\:name')
         .toArray() //converts cheerio collection to array of javascript objects
         .map(e => $(e).text()); //maps cheerio document nodes to string using cheerio's text() function.
+    book.subjects = $('[rdf\\:resource$="/LCSH"]').parent().find('rdf\\:value').toArray()
+        .map(e => $(e).text());
     return book;
 };
