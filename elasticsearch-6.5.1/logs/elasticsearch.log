@@ -1,0 +1,54 @@
+[2018-11-21T08:42:29,248][INFO ][o.e.e.NodeEnvironment    ] [qXBCq4T] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [144.3gb], net total_space [464.7gb], types [hfs]
+[2018-11-21T08:42:29,250][INFO ][o.e.e.NodeEnvironment    ] [qXBCq4T] heap size [989.8mb], compressed ordinary object pointers [true]
+[2018-11-21T08:42:29,252][INFO ][o.e.n.Node               ] [qXBCq4T] node name derived from node ID [qXBCq4TrQnegdljAzzy1YQ]; set [node.name] to override
+[2018-11-21T08:42:29,252][INFO ][o.e.n.Node               ] [qXBCq4T] version[6.5.1], pid[49648], build[default/tar/8c58350/2018-11-16T02:22:42.182257Z], OS[Mac OS X/10.12.6/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2018-11-21T08:42:29,252][INFO ][o.e.n.Node               ] [qXBCq4T] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/vs/jphvxqfd5h9g3jjpgb8q_3780000gn/T/elasticsearch.e1yYTB88, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/Users/tyler/zerkplace/node-js-8-the-right-way/elasticsearch-6.5.1, -Des.path.conf=/Users/tyler/zerkplace/node-js-8-the-right-way/elasticsearch-6.5.1/config, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+[2018-11-21T08:42:30,689][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [aggs-matrix-stats]
+[2018-11-21T08:42:30,689][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [analysis-common]
+[2018-11-21T08:42:30,689][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [ingest-common]
+[2018-11-21T08:42:30,689][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [lang-expression]
+[2018-11-21T08:42:30,690][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [lang-mustache]
+[2018-11-21T08:42:30,690][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [lang-painless]
+[2018-11-21T08:42:30,690][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [mapper-extras]
+[2018-11-21T08:42:30,690][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [parent-join]
+[2018-11-21T08:42:30,690][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [percolator]
+[2018-11-21T08:42:30,690][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [rank-eval]
+[2018-11-21T08:42:30,690][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [reindex]
+[2018-11-21T08:42:30,690][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [repository-url]
+[2018-11-21T08:42:30,690][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [transport-netty4]
+[2018-11-21T08:42:30,690][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [tribe]
+[2018-11-21T08:42:30,690][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [x-pack-ccr]
+[2018-11-21T08:42:30,690][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [x-pack-core]
+[2018-11-21T08:42:30,691][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [x-pack-deprecation]
+[2018-11-21T08:42:30,691][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [x-pack-graph]
+[2018-11-21T08:42:30,691][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [x-pack-logstash]
+[2018-11-21T08:42:30,691][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [x-pack-ml]
+[2018-11-21T08:42:30,691][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [x-pack-monitoring]
+[2018-11-21T08:42:30,691][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [x-pack-rollup]
+[2018-11-21T08:42:30,691][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [x-pack-security]
+[2018-11-21T08:42:30,691][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [x-pack-sql]
+[2018-11-21T08:42:30,691][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [x-pack-upgrade]
+[2018-11-21T08:42:30,691][INFO ][o.e.p.PluginsService     ] [qXBCq4T] loaded module [x-pack-watcher]
+[2018-11-21T08:42:30,692][INFO ][o.e.p.PluginsService     ] [qXBCq4T] no plugins loaded
+[2018-11-21T08:42:33,483][INFO ][o.e.x.s.a.s.FileRolesStore] [qXBCq4T] parsed [0] roles from file [/Users/tyler/zerkplace/node-js-8-the-right-way/elasticsearch-6.5.1/config/roles.yml]
+[2018-11-21T08:42:33,832][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [qXBCq4T] [controller/49666] [Main.cc@109] controller (64 bit): Version 6.5.1 (Build 1c5fe241dd9aea) Copyright (c) 2018 Elasticsearch BV
+[2018-11-21T08:42:34,159][DEBUG][o.e.a.ActionModule       ] [qXBCq4T] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2018-11-21T08:42:34,311][INFO ][o.e.d.DiscoveryModule    ] [qXBCq4T] using discovery type [zen] and host providers [settings]
+[2018-11-21T08:42:34,916][INFO ][o.e.n.Node               ] [qXBCq4T] initialized
+[2018-11-21T08:42:34,916][INFO ][o.e.n.Node               ] [qXBCq4T] starting ...
+[2018-11-21T08:42:35,065][INFO ][o.e.t.TransportService   ] [qXBCq4T] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}, {127.94.0.1:9300}
+[2018-11-21T08:42:38,112][INFO ][o.e.c.s.MasterService    ] [qXBCq4T] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {qXBCq4T}{qXBCq4TrQnegdljAzzy1YQ}{qfTo0BIMQxOT9AJU8LWAXg}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=17179869184, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2018-11-21T08:42:38,116][INFO ][o.e.c.s.ClusterApplierService] [qXBCq4T] new_master {qXBCq4T}{qXBCq4TrQnegdljAzzy1YQ}{qfTo0BIMQxOT9AJU8LWAXg}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=17179869184, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {qXBCq4T}{qXBCq4TrQnegdljAzzy1YQ}{qfTo0BIMQxOT9AJU8LWAXg}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=17179869184, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-11-21T08:42:38,131][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [qXBCq4T] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}, {127.94.0.1:9200}
+[2018-11-21T08:42:38,132][INFO ][o.e.n.Node               ] [qXBCq4T] started
+[2018-11-21T08:42:38,143][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [qXBCq4T] Failed to clear cache for realms [[]]
+[2018-11-21T08:42:38,180][INFO ][o.e.g.GatewayService     ] [qXBCq4T] recovered [0] indices into cluster_state
+[2018-11-21T08:42:38,295][INFO ][o.e.c.m.MetaDataIndexTemplateService] [qXBCq4T] adding template [.triggered_watches] for index patterns [.triggered_watches*]
+[2018-11-21T08:42:38,329][INFO ][o.e.c.m.MetaDataIndexTemplateService] [qXBCq4T] adding template [.watch-history-9] for index patterns [.watcher-history-9*]
+[2018-11-21T08:42:38,347][INFO ][o.e.c.m.MetaDataIndexTemplateService] [qXBCq4T] adding template [.watches] for index patterns [.watches*]
+[2018-11-21T08:42:38,409][INFO ][o.e.c.m.MetaDataIndexTemplateService] [qXBCq4T] adding template [.monitoring-logstash] for index patterns [.monitoring-logstash-6-*]
+[2018-11-21T08:42:38,445][INFO ][o.e.c.m.MetaDataIndexTemplateService] [qXBCq4T] adding template [.monitoring-es] for index patterns [.monitoring-es-6-*]
+[2018-11-21T08:42:38,472][INFO ][o.e.c.m.MetaDataIndexTemplateService] [qXBCq4T] adding template [.monitoring-beats] for index patterns [.monitoring-beats-6-*]
+[2018-11-21T08:42:38,487][INFO ][o.e.c.m.MetaDataIndexTemplateService] [qXBCq4T] adding template [.monitoring-alerts] for index patterns [.monitoring-alerts-6]
+[2018-11-21T08:42:38,506][INFO ][o.e.c.m.MetaDataIndexTemplateService] [qXBCq4T] adding template [.monitoring-kibana] for index patterns [.monitoring-kibana-6-*]
+[2018-11-21T08:42:38,592][INFO ][o.e.l.LicenseService     ] [qXBCq4T] license [78797fc0-08e7-4113-8df5-9794bec52cbe] mode [basic] - valid
